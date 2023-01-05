@@ -30,6 +30,10 @@ header nav ul{
 }
 header nav ul li{
     margin-right: 20px;
+    transition: 0.3s;
+}
+header nav ul li:hover{
+    transform: scale(1.1);
 }
 header nav ul li a{
     text-decoration: none;
@@ -48,6 +52,10 @@ header .icon_header ul{
 }
 header .icon_header ul li{
     margin-left: 15px;
+    transition: 0.3s;
+}
+header .icon_header ul li:hover{
+    transform: scale(1.1);
 }
 header .icon_header ul li:nth-child(1){
     position: absolute;
@@ -88,6 +96,10 @@ header .icon_header ul li:nth-child(1){
     background-color: black;
     border-radius: 100px;
     text-decoration: none;
+    transition: 0.3s;
+}
+.main_guides .guides_inform a:hover{
+    color: silver;
 }
 .guides_img{
     position: relative;
