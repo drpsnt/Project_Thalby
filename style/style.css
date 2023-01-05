@@ -59,7 +59,7 @@ header .icon_header ul li:nth-child(1){
     background-color: #F0EFEB;
 }
 .guides_inform{
-    padding: 100px 0;
+    padding: 90px 0;
     max-width: 534px;
 }
 .main_guides .guides_inform h1{
@@ -94,7 +94,7 @@ header .icon_header ul li:nth-child(1){
 }
 .guides_img img{
     position: absolute;
-    right: -110px;
+    right: -120px;
 }
 
 /* Main Sellers */
