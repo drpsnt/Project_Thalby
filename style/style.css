@@ -176,3 +176,58 @@ header .icon_header ul li:nth-child(1){
     color: #000000;
     display: block;
 }
+
+/*Footer*/
+footer{
+   background-color: #020202;
+    padding: 51px 0 16px;
+}
+footer .foot_social a img{
+    margin-bottom: 37px;
+}
+footer .foot_social ul{
+    display: flex;
+}
+footer .foot_social ul li{
+    margin-right: 23px;
+    transition: 0.3s;
+}
+footer .foot_social ul li:hover{
+    transform: scale(1.1);
+}
+
+footer .list_about h5,.list_contact h5{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-bottom: 36px;
+}
+footer .list_about ul li,.list_contact ul li{
+    list-style: none;
+    margin-bottom: 12px;
+    transition: 0.3s;
+}
+footer .list_about ul li a,.list_contact ul li a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+footer .list_about ul li:hover,.list_contact ul li:hover{
+    transform: scale(1.1);
+}
+footer .list_about{
+    margin-right: 72px;
+}
+footer p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
