@@ -288,14 +288,6 @@ header .icon_header ul li:nth-child(1){
     margin-bottom: 206px;
     width: 100%;
 }
-
-.main_features .item_features1 .item_circle{
-    width: 70px;
-    height: 70px;
-    border-radius: 35px;
-    background-color: #21F7EC;
-    margin:0 auto 26px;
-}
 .main_features .item_features1 p{
     font-style: normal;
     font-weight: 700;
