@@ -3,6 +3,12 @@
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+.textalgn_right{
+    text-align: right;
+}
+.row_reverse{
+    flex-direction: row-reverse;
+}
 .d_flex{
     display: flex;
 }
@@ -174,6 +180,196 @@ header .icon_header ul li:nth-child(1){
     text-align: center;
     text-decoration-line: underline;
     color: #000000;
+    display: block;
+}
+/* Main Shop*/
+
+.main_shop1{
+    padding: 76px 0 51px;
+    background-color: rgba(204, 204, 204, 0.3);
+}
+.main_shop2{
+    padding: 76px 0 51px;
+    background-color: rgba(204, 204, 204, 0.6);;
+}
+
+.main_shop1 .shop_img{
+    display: block;
+    max-width: 385px;
+    width: 100%;
+    margin-right: 50px;
+}
+.main_shop2 .shop_img {
+    display: block;
+    max-width: 385px;
+    width: 100%;
+    margin-left: 50px;
+}
+.shop_img img{
+    width: 100%;
+}
+.shop_inform{
+    padding-top: 92px;
+    max-width: 530px;
+}
+.shop_inform h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 31px;
+}
+.shop_inform p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.shop_inform a{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+
+/*Main Features*/
+
+
+.main_features{
+    padding: 190px 0 290px;
+}
+.main_features h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 165px;
+}
+.main_features h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-top: -163px;
+}
+.box_feutures{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    margin-bottom: 163px;
+}
+
+.main_features .item_features1{
+    position: relative;
+    text-align: center;
+    max-width: 354px;
+    margin-bottom: 206px;
+    width: 100%;
+}
+
+.main_features .item_features1 .item_circle{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: #21F7EC;
+    margin:0 auto 26px;
+}
+.main_features .item_features1 p{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+}
+.main_features .item_features1 p:before{
+    content: "";
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: #21F7EC;
+    display: block;
+    position: absolute;
+    bottom: 100px;
+    left:145px;
+}
+.main_features .item_features1:nth-child(2) p:before{
+    background-color: #33D3BC;
+}
+.main_features .item_features1:nth-child(3) p:before{
+    background-color: #18A5C6;
+}
+.main_features .item_features1:nth-child(4) p:before{
+    background-color: #D38F62;
+}
+.main_features .item_features1:nth-child(5) p:before{
+    background-color: #F94C43;
+}
+.main_features .item_features1:nth-child(6) p:before{
+    background-color: #D399FF;
+}
+
+/*Main Interviews*/
+
+.main_interviews{
+    padding: 198px 0 52px;
+    background-color: #F0F0F0;;
+}
+.main_interviews .interviews_item{
+    max-width: 288px;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+.main_interviews .interviews_item img{
+    width: 100%;
+    position: absolute;
+    bottom: 265px;
+}
+.main_interviews .interviews_item h5{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.6px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.main_interviews .interviews_item p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 44px;
+}
+.main_interviews .interviews_item a{
+    display: block;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.avatar_img{
+    position: relative;
+    max-width: 288px;
+    width: 100%;
     display: block;
 }
 
