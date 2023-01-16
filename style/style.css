@@ -236,6 +236,13 @@ header .icon_header ul li:nth-child(1){
 
 
 /*     Carousel shop          */
+.carousel_shop .owl-dots{
+    display: flex;
+    justify-content: center;
+}
+.carousel_shop .owl-dots .owl-dot{
+    margin: 0 20px;
+}
 .carousel_shop .owl-dots .owl-dot span{
     width: 15px;
     height: 15px;
@@ -243,7 +250,10 @@ header .icon_header ul li:nth-child(1){
     background-color: black;
     border-radius: 50%;
 }
-.carousel_shop .owl-dots .owl-dot:nth-child(1){
+.carousel_shop .owl-dots .owl-dot.active span{
+    background-color: silver;
+}
+/*.carousel_shop .owl-dots .owl-dot:nth-child(1){
     position: absolute;
     bottom: -25px;
     left: 45%;
@@ -258,10 +268,7 @@ header .icon_header ul li:nth-child(1){
     bottom: -25px;
     left: 55%;
 }
-.carousel_shop .owl-dots .owl-dot.active span{
-    background-color: silver;
-}
-
+*/
 
 
 /* Main Shop*/
