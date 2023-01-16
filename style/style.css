@@ -24,7 +24,7 @@ header{
 }
 .container{
     max-width: 1064px;
-    margin: auto;
+    margin:0 auto;
 }
 header .logo{
     position: absolute;
@@ -149,14 +149,14 @@ header .icon_header ul li:nth-child(1){
 .main_sellers .sellers_inform h3:nth-of-type(2) {
     margin-bottom: 52px;
 }
-.main_sellers .sellers_card {
+.main_sellers .items_card {
     max-width: 315px;
 }
-.main_sellers .sellers_card img{
+.main_sellers .items_card img{
     width: 100%;
     margin-bottom: 20px;
 }
-.main_sellers .sellers_card h5{
+.main_sellers .items_card h5{
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -165,7 +165,7 @@ header .icon_header ul li:nth-child(1){
     color: #000000;
     margin-bottom: 17px;
 }
-.main_sellers .sellers_card p{
+.main_sellers .items_card p{
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -174,7 +174,7 @@ header .icon_header ul li:nth-child(1){
     color: #000000;
     margin-bottom: 10px;
 }
-.main_sellers .sellers_card a{
+.main_sellers .items_card a{
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -184,6 +184,80 @@ header .icon_header ul li:nth-child(1){
     color: #000000;
     display: block;
 }
+
+
+/*    Carousel     */
+
+.sellers_card .owl-stage .owl-item{
+    display: flex;
+    justify-content: center;
+}
+.sellers_card .owl-nav .owl-prev{
+    position: absolute;
+    top: 200px;
+    left: -70px;
+}
+.sellers_card .owl-nav .owl-prev:after{
+    content: "\f053";
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+    font-size: 35px;
+    color: black;
+    display: inline-block;
+    padding: 7px;
+    border: 5px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: 0.3s;
+
+}
+.sellers_card .owl-nav .owl-prev:hover:after,
+.sellers_card .owl-nav .owl-next:hover:after{
+    background-color: silver;
+}
+.sellers_card .owl-nav .owl-next{
+    position: absolute;
+    top:200px;
+    right: -70px;
+}
+.sellers_card .owl-nav .owl-next:after{
+    content: "\f054";
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+    font-size: 35px;
+    color: black;
+    display: inline-block;
+    padding: 7px;
+    border: 5px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+
+/*     Carousel shop          */
+.carousel_shop .owl-nav .owl-dots .owl-dot span{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+}
+.carousel_shop .owl-nav .owl-dots .owl-dot.active span{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-color: silver;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transition: 0.3s;
+}
+
+
+
 /* Main Shop*/
 
 .main_shop1{
