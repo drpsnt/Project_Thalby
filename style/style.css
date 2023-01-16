@@ -201,7 +201,7 @@ header .icon_header ul li:nth-child(1){
     content: "\f053";
     font-weight: 900;
     font-family: "Font Awesome 6 Free";
-    font-size: 35px;
+    font-size: 25px;
     color: black;
     display: inline-block;
     padding: 7px;
@@ -224,7 +224,7 @@ header .icon_header ul li:nth-child(1){
     content: "\f054";
     font-weight: 900;
     font-family: "Font Awesome 6 Free";
-    font-size: 35px;
+    font-size: 25px;
     color: black;
     display: inline-block;
     padding: 7px;
@@ -236,24 +236,30 @@ header .icon_header ul li:nth-child(1){
 
 
 /*     Carousel shop          */
-.carousel_shop .owl-nav .owl-dots .owl-dot span{
+.carousel_shop .owl-dots .owl-dot span{
     width: 15px;
     height: 15px;
     display: inline-block;
     background-color: black;
     border-radius: 50%;
+}
+.carousel_shop .owl-dots .owl-dot:nth-child(1){
     position: absolute;
+    bottom: -25px;
+    left: 45%;
+}
+.carousel_shop .owl-dots .owl-dot:nth-child(2){
+    position: absolute;
+    bottom: -25px;
     left: 50%;
 }
-.carousel_shop .owl-nav .owl-dots .owl-dot.active span{
-    width: 15px;
-    height: 15px;
-    display: inline-block;
-    background-color: silver;
-    border-radius: 50%;
+.carousel_shop .owl-dots .owl-dot:nth-child(3){
     position: absolute;
-    left: 50%;
-    transition: 0.3s;
+    bottom: -25px;
+    left: 55%;
+}
+.carousel_shop .owl-dots .owl-dot.active span{
+    background-color: silver;
 }
 
 
